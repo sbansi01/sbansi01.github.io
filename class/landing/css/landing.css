@@ -1,0 +1,33 @@
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 2em;
+    background-color: #F9EBEA;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 5em;
+    border-bottom: 2px solid darkgrey;
+}
+
+.top {
+    line-height: 3.0;
+    padding: 1.5em 0 1.5em 0;
+}
+
+.bottom {
+    padding: 0 0 1.5em 0;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 1em 0 0 0;
+    border-top: 2px solid darkgray;
+}
