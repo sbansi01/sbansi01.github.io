@@ -1,0 +1,79 @@
+body{
+    background-color: #F0F0F2;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #1C3D59;
+}
+
+h1{
+    background-color: #1C3D59;
+    color: #F0F0F2;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    padding: 0.5em
+}
+
+.nav{
+    background-color: #C1D6D9;
+    padding: 0.5em;
+    font-size: 1.3em;
+}
+
+.nav a{
+    color: #1C3D59;
+  }
+
+.nav a:hover {
+    color: #BF4B4B;
+    text-decoration: underline;
+  }
+
+.current a{
+  color: #BF4B4B;
+}
+
+  .intro{
+    padding: 6em 0 6em 1em;
+  }
+
+  .intro h2{
+    font-size: 3em;
+    color: #BF8845;
+  }
+
+  .intro h3{
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .intro a{
+    color: #BF4B4B;
+    text-decoration: none;
+  }
+
+  .intro a:hover {
+    color: #BF4B4B;
+    text-decoration: underline;
+  }
+
+  .clips{
+    padding: 2em 0 0em 1em;
+    border-bottom: 2.5px solid #BF4B4B;
+  }
+  
+  .clips h2{
+    font-size: 1.75em;
+    color: #BF8845;
+  }
+
+  .clips a{
+    color: #1C3D59;
+    text-decoration: none;
+  }
+
+  .clips a:hover {
+    color: #BF4B4B;
+    text-decoration: underline;
+  }
