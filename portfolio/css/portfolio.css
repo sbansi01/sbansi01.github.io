@@ -1,127 +1,129 @@
-body{
-    background-color: #F0F0F2;
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-    color: #1C3D59;
+body {
+  background-color: #F0F0F2;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  color: #1C3D59;
 }
 
-h1{
-    background-color: #1C3D59;
-    color: #F0F0F2;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    font-size: 3em;
-    padding: 0.5em;
-    text-align: right;
+h1 {
+  background-color: #1C3D59;
+  color: #F0F0F2;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  padding: 0.5em;
+  text-align: right;
 }
 
-.nav{
-    background-color: #C1D6D9;
-    padding: 0.5em;
-    font-size: 1.3em;
+.nav {
+  background-color: #C1D6D9;
+  padding: 0.5em;
+  font-size: 1.3em;
 }
 
-.nav a{
-    color: #1C3D59;
-  }
+.nav a {
+  color: #1C3D59;
+}
 
-.nav a:hover {
-    color: #BF4B4B;
-    text-decoration: underline;
-  }
-
-.active{
+a.nav-link.active {
   font-weight: bold;
   font-style: italic;
-  color: #BF4B4B;
+  color: #BF8845;
 }
 
+.nav a:hover,
+a.nav-link.active:hover,
+.intro a:hover,
+.download a:hover,
+.sports a:hover,
+.public a:hover,
+.data a:hover,
+.contact a:hover {
+  color: #BF4B4B;
+  text-decoration: underline;
+}
+
+.intro,
+.contact {
+  padding: 6em 0 6em 1em;
+}
+
+.intro h2,
+.contact h2 {
+  font-size: 3em;
+  color: #BF8845;
+}
+
+.intro h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.intro a,
+.download a {
+  color: #BF8845;
+  text-decoration: none;
+}
+
+.download {
+  padding: 1em 0 1em 1em;
+  font-size: 1.3em;
+}
+
+iframe {
+  height: 1155px;
+  width: 100%;
+}
+
+.sports,
+.public {
+  padding: 2em 0 0em 1em;
+  border-bottom: 2.5px solid #C1D6D9;
+  line-height: 200%;
+}
+
+.data {
+  padding: 2em 0 2em 1em;
+  line-height: 200%;
+}
+
+.sports h2,
+.public h2,
+.data h2 {
+  font-size: 1.75em;
+  color: #BF8845;
+}
+
+.sports a,
+.public a,
+.data a {
+  color: #1C3D59;
+  text-decoration: none;
+}
+
+span {
+  font-style: italic;
+}
+
+.bi,
+.contact a {
+  font-weight: 400;
+  font-size: 1.8em;
+  font-style: normal;
+  font-family: 'Oswald', sans-serif;
+  color: #1C3D59;
+  text-decoration: none;
+  padding: 0 0 0 0.5em;
+}
+
+@media (max-width:576px) {
+  .nav {
+    font-size: 0.95em;
+  }
+
   .intro,
-  .contact{
-    padding: 6em 0 6em 1em;
+  .contact {
+    padding: 3em 0 6em 1em;
   }
-
-  .intro h2,
-  .contact h2{
-    font-size: 3em;
-    color: #BF8845;
-  }
-
-  .intro h3{
-    font-weight: 400;
-    font-size: 1.5em;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  .intro a,
-  .download a{
-    color: #BF4B4B;
-    text-decoration: none;
-  }
-
-  .intro a:hover,
-  .download a:hover{
-    color: #BF4B4B;
-    text-decoration: underline;
-  }
-
-  .download{
-    padding: 1em 0 1em 1em;
-    font-size: 1.3em;
-  }
-
-  iframe{
-    height:1155px;
-    width:100%;
-  }
-  
-  .sports,
-  .public{
-    padding: 2em 0 0em 1em;
-    border-bottom: 2.5px solid #BF4B4B;
-  }
-
-  .data{
-    padding: 2em 0 2em 1em;
-  }
-  
-  .sports h2,
-  .public h2,
-  .data h2{
-    font-size: 1.75em;
-    color: #BF8845;
-  }
-
-  .sports a,
-  .public a,
-  .data a{
-    color: #1C3D59;
-    text-decoration: none;
-  }
-
-  .sports a:hover,
-  .public a:hover,
-  .data a:hover,
-  .contact a:hover{
-    color: #BF4B4B;
-    text-decoration: underline;
-  }
-
-  span{
-    font-style: italic;
-  }
-
-  .contact{
-    padding: 6em 0 6em 1em;
-  }
-
-  .bi,
-  .contact a{
-    font-weight: 400;
-    font-size: 1.8em;
-    font-style: normal;
-    font-family: 'Oswald', sans-serif;
-    color: #1C3D59;
-    text-decoration: none;
-    padding: 0 0 0 0.5em;
-  }
+}
