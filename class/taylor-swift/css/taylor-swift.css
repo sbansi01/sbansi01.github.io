@@ -1,0 +1,29 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0E171A;
+}
+
+.heading {
+    background-color: #0E171A;
+    padding: 8em 3em 10em 0.5em;
+}
+
+h1 {
+    color: #fafafa;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.heading p {
+    color: #fafafa;
+    font-size: .65em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.heading a {
+    color:#fafafa;
+}
