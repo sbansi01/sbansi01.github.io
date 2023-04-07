@@ -5,7 +5,7 @@ body {
     color: #0E171A;
 }
 
-.heading {
+header {
     background-color: #0E171A;
     padding: 8em 3em 10em 0.5em;
 }
@@ -17,13 +17,105 @@ h1 {
     font-size: 3em;
 }
 
-.heading p {
+header p {
     color: #fafafa;
     font-size: .65em;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
-.heading a {
-    color:#fafafa;
+header a {
+    color: #fafafa;
 }
+
+section a {
+    color: #b2322d;
+}
+
+section a:hover {
+    color: #b2322d;
+}
+
+.intro {
+    padding: 5em 0em 4em 0em;
+}
+
+section {
+    padding: 2em 0em;
+}
+
+h4 {
+    font-size: 1.25em;
+    color: #b2322d;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.h4-subhead {
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.timeline {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 0.95em;
+}
+
+.timeline a,
+footer a {
+    color: #0E171A;
+}
+
+.border-start {
+    border-color: #b2322d !important;
+}
+
+span {
+    background-color: #b2322d;
+    color: #fafafa;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0em 0.5em;
+    font-size: 0.95em;
+}
+
+h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+footer {
+    font-size: 0.80em;
+    padding: 0em 0em 1.5em 0em;
+}
+
+@media (max-width:780px) {
+    header {
+        text-align: center;
+        padding: 10em 3em 12em 0.5em;
+    }
+
+    header img {
+        padding-bottom: 1.5em;
+    }
+}
+
+@media (max-width:480px) {
+    h4 {
+        padding-bottom: 1em;
+    }
+}
+
+/* Resources used to figure out timeline border:
+1) https://getbootstrap.com/docs/5.3/utilities/borders/
+2) https://stackoverflow.com/questions/75582973/changing-the-bootstrap-border-color-to-a-custom-hex-color
+*/
