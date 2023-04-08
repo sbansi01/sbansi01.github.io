@@ -8,11 +8,11 @@ body {
 header {
     background-color: #0E171A;
     padding: 8em 3em 10em 0.5em;
+    font-family: 'Cabin Condensed', sans-serif;
 }
 
 h1 {
     color: #fafafa;
-    font-family: 'Cabin Condensed', sans-serif;
     font-weight: 700;
     font-size: 3em;
 }
@@ -26,18 +26,23 @@ header p {
 
 header a {
     color: #fafafa;
+    text-decoration-color: #b2322d;
 }
 
-section a {
-    color: #b2322d;
+section a,
+footer a {
+    color: #0E171A;
+    text-decoration-color: #b2322d;
 }
 
-section a:hover {
+header a:hover,
+section a:hover,
+footer a:hover {
     color: #b2322d;
 }
 
 .intro {
-    padding: 5em 0em 4em 0em;
+    padding-top: 5em;
 }
 
 section {
@@ -57,10 +62,15 @@ h4 {
     text-align: center;
 }
 
+.graphic {
+    padding-top: 2.5em;
+}
+
 h2 {
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
+    padding-top:0.5em;
 }
 
 .timeline {
@@ -68,9 +78,8 @@ h2 {
     font-size: 0.95em;
 }
 
-.timeline a,
-footer a {
-    color: #0E171A;
+.timeline p{
+    padding: 0.5em 0 1em 0;
 }
 
 .border-start {
@@ -91,6 +100,7 @@ h3 {
     font-weight: 700;
     font-size: 1.25em;
     text-transform: uppercase;
+    padding: 0.5em 0;
 }
 
 footer {
@@ -107,6 +117,12 @@ footer {
     header img {
         padding-bottom: 1.5em;
     }
+
+    h1 {
+        padding-bottom: 1em;
+    }
+    .timeline p{
+        padding: 1em 0 1em 0;
 }
 
 @media (max-width:480px) {
