@@ -70,7 +70,7 @@ h2 {
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
-    padding-top:0.5em;
+    padding-top: 0.5em;
 }
 
 .timeline {
@@ -78,7 +78,7 @@ h2 {
     font-size: 0.95em;
 }
 
-.timeline p{
+.timeline p {
     padding: 0.5em 0 1em 0;
 }
 
@@ -121,17 +121,18 @@ footer {
     h1 {
         padding-bottom: 1em;
     }
-    .timeline p{
+
+    .timeline p {
         padding: 1em 0 1em 0;
-}
-
-@media (max-width:480px) {
-    h4 {
-        padding-bottom: 1em;
     }
-}
 
-/* Resources used to figure out timeline border:
+    @media (max-width:480px) {
+        h4 {
+            padding-bottom: 1em;
+        }
+    }
+
+    /* Resources used to figure out timeline border:
 1) https://getbootstrap.com/docs/5.3/utilities/borders/
 2) https://stackoverflow.com/questions/75582973/changing-the-bootstrap-border-color-to-a-custom-hex-color
 */
