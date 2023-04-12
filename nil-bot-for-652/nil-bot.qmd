@@ -1,0 +1,74 @@
+# NIL bot analysis
+Sapna Bansil
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load libraries and establish settings
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+# Load libraries
+library(tidyverse)
+library(janitor)
+
+```
+
+### Load data
+
+```{r}
+
+big_ten_nil <- read_csv("data/big-ten-nil.csv")
+
+
+```
+
+### Clean data
+
+```{r}
+
+big_ten_nil <- big_ten_nil %>%
+  clean_names()
+
+
+```
+
+## Analysis
+
+```{r}
+
+# NIL deals by school
+big_ten_deals <- big_ten_nil %>%
+  group_by(school) %>%
+  summarise(total_deals = n()) %>%
+  arrange(desc(total_deals))
+
+# All Maryland deals
+maryland_deals <- big_ten_nil %>%
+  filter(school == "Maryland Terrapins")
+
+# Maryland athletes
+maryland_athletes <- maryland_deals %>%
+  group_by(last_name, first_name) %>%
+  summarise(total_deals = n()) %>%
+  arrange(desc(total_deals))
+
+# Big Ten companies
+big_ten_companies <- big_ten_nil %>%
+  group_by(partner) %>%
+  summarise(total_deals = n()) %>%
+  arrange(desc(total_deals)) %>%
+  na.omit()
+
+```
+
+## Create CSV
+
+```{r}
+
+
+
+```
