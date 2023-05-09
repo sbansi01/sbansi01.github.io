@@ -1,0 +1,15 @@
+/* font-family: 'Libre Baskerville', serif; */
+/* font-family: 'Fjalla One', sans-serif; */
+/* colors: */
+/* red: E51D37 */
+/* black: 000F08 */
+/* gray: 969D7D */
+/* white: FAF6F6 */
+/* yellow: F1C40F */
+
+body {
+    background-color: #FAF6F6;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: #000F08;
+  }
