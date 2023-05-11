@@ -13,3 +13,71 @@ body {
     font-size: 18px;
     color: #000F08;
   }
+
+  header {
+    background-color: #696D7D;
+    padding-right: 2em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    color: #FAF6F6;
+    font-weight: 500;
+    font-size: 2.75em;
+    letter-spacing: 1.2px;
+    padding-bottom: 0.5em;
+}
+
+header p {
+    color: #F1C40F;
+    font-size: .65em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #E51D37;
+    text-decoration-color: #696D7D;
+}
+
+a:hover {
+    background-color: #F1C40F;
+  }
+
+.intro {
+    padding-top: 4.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+    color: #E51D37;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.h4-subhead {
+    font-style: italic;
+    text-align: center;
+    color: #696D7D;
+}
+
+.flourish-embed {
+    padding-bottom: 3em;
+}
+
+.timeline {
+    padding: 3em 0em 3em 0em;
+}
+
+.instagram {
+    padding: 2em 0em 2em 0em;
+}
+
+footer {
+    font-size: 0.80em;
+    padding: 3em 0em 2em 0em;
+    text-align: center;
+    color: #696D7D;
+}
