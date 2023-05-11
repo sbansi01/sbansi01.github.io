@@ -12,9 +12,9 @@ body {
     font-family: 'Average Sans', sans-serif;
     font-size: 18px;
     color: #000F08;
-  }
+}
 
-  header {
+header {
     background-color: #696D7D;
     padding-right: 2em;
     font-family: 'Fjalla One', sans-serif;
@@ -42,7 +42,7 @@ a {
 
 a:hover {
     background-color: #F1C40F;
-  }
+}
 
 .intro {
     padding-top: 4.5em;
