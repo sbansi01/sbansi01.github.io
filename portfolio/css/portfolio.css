@@ -36,6 +36,7 @@ a.nav-link.active:hover,
 .intro a:hover,
 .download a:hover,
 .clips a:hover,
+.clips-end a:hover,
 .contact a:hover {
   color: #BF4B4B;
   text-decoration: underline;
@@ -80,17 +81,19 @@ iframe {
   line-height: 200%;
 }
 
-.data {
+.clips-end {
   padding: 2em 0 2em 1em;
   line-height: 200%;
 }
 
-.clips h2 {
+.clips h2,
+.clips-end h2 {
   font-size: 1.75em;
   color: #BF8845;
 }
 
-.clips a {
+.clips a,
+.clips-end a {
   color: #1C3D59;
   text-decoration: none;
 }
