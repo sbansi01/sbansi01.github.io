@@ -35,9 +35,7 @@ a.nav-link.active {
 a.nav-link.active:hover,
 .intro a:hover,
 .download a:hover,
-.sports a:hover,
-.public a:hover,
-.data a:hover,
+.clips a:hover,
 .contact a:hover {
   color: #BF4B4B;
   text-decoration: underline;
@@ -76,8 +74,7 @@ iframe {
   width: 100%;
 }
 
-.sports,
-.public {
+.clips {
   padding: 2em 0 0em 1em;
   border-bottom: 2.5px solid #C1D6D9;
   line-height: 200%;
@@ -88,16 +85,12 @@ iframe {
   line-height: 200%;
 }
 
-.sports h2,
-.public h2,
-.data h2 {
+.clips h2 {
   font-size: 1.75em;
   color: #BF8845;
 }
 
-.sports a,
-.public a,
-.data a {
+.clips a {
   color: #1C3D59;
   text-decoration: none;
 }
